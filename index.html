@@ -42,15 +42,23 @@
             <article class="col-xl-6 col-md-6 col-sm-12">
                 <p>¿Cuál es tu episodeo favorito de la serie? ¡Contános!</p>
             </article>
-            <article class="col-xl-6 col-md-6 col-sm-12">
-                <form>
-                    <label for="">Complete con sus datos:</label> 
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido">
-                    <input type="email" placeholder="Email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Dejanos tu respuesta!"></textarea>
-                    <input type="submit">
-                </form>
+            <article class="col-xl-6 col-md-6 col-sm-12 formulario">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese aquí su nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese aquí su apellido">
+                </div>
+                <div class="mb-3">
+                    <label for="mail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="mail" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Respuesta</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                </div>
             </article>
         </section>
     </main>

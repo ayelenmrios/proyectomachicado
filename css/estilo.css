@@ -41,6 +41,10 @@ article{
     width: 300px;
     background-color: green;
 }
+.formulario div{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 footer{
     color: black;
     text-align: right;
