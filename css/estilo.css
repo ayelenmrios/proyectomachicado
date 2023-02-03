@@ -53,8 +53,8 @@ section{
 .pregunta{
     height: 400px;
     text-align: center;
-    padding-top: 150px;
-    padding-left: 250px;
+    padding-top: 150px !important;
+    padding-left: 250px !important;
 }
 .pregunta p{
     width: 200px;
