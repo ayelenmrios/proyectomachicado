@@ -50,12 +50,11 @@ li{
 section{
     margin-bottom: 70px;
 }
-article{
-    width: 300px;
-}
 .pregunta{
     height: 400px;
     text-align: center;
+    padding-top: 150px;
+    padding-left: 250px;
 }
 .pregunta p{
     width: 200px;
