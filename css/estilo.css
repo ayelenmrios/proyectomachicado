@@ -2,10 +2,12 @@ body{
     background-color: aquamarine;
     font-family: sans-serif;
 }
+/* Encabezado */
 header{
     text-align: center;
     height: 400px;
 }
+/* Cuerpo */
 main{
     background-color: white;
     margin-bottom: 100px;
@@ -27,6 +29,7 @@ h2{
     font-weight: bold;
     margin-bottom: 30px;
 }
+/* Menu */
 nav{
     text-align: center;
     background-color: aquamarine;
@@ -66,12 +69,7 @@ section{
 .form-control{
     background-color: rgba(255, 192, 203, 0.651);
 }
-footer{
-    color: black;
-    text-align: right;
-    height: 100px;
-}
-
+/* Tabla */
 table{
     border: black solid 2px;
     text-align: center;
@@ -79,3 +77,11 @@ table{
 td{
     border: solid black 1px;
 }
+
+/* Pie de página */
+footer{
+    color: black;
+    text-align: right;
+    height: 100px;
+}
+
