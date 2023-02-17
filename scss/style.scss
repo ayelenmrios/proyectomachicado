@@ -1,0 +1,31 @@
+@import "variables";
+@import "nav";
+@import "main";
+
+/*General*/
+body {
+    margin: 0;
+    background-color: $color-fondo;
+    font-family: 'Raleway', sans-serif;
+} 
+
+/*Encabezado*/
+header {
+    text-align: $texto-alineado;
+    height: 400px;
+
+    h1 {
+        color: $color-letra;
+        text-align: $texto-alineado;
+        text-transform: $letra-mayus;
+        font-size: 70px;
+        font-weight: bold;
+        padding-top: 100px;
+    }
+}
+
+/*Pie de página*/
+footer {
+    color: rgb(122, 122, 122);
+    padding-top: 30px;
+}

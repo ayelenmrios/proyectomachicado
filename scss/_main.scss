@@ -1,0 +1,60 @@
+/*Cuerpo*/
+main {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+    border-radius: 4px;
+
+    h2 {
+        color: $color-letra;
+        text-align: $texto-alineado;
+        text-transform: $letra-mayus;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        color: $color-letra;
+        text-align: $texto-alineado;
+        text-transform: $letra-mayus;
+    }
+
+    section {
+        margin-bottom: 70px;
+    }
+
+    table {
+        border: black solid 2px;
+        text-align: $texto-alineado;
+
+        td {
+            border: solid black 1px;
+        }
+    }
+
+    .pregunta {
+        height: 400px;
+        text-align: $texto-alineado;
+
+        p {
+            width: 200px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
+    .formulario {
+        div {
+            padding-left: 70px;
+            padding-right: 70px;
+
+            .form-control {
+                background-color: rgba(255, 192, 203, 0.651);
+            }
+        }
+    }
+
+}
