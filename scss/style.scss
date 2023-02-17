@@ -28,4 +28,22 @@ header {
 footer {
     color: rgb(122, 122, 122);
     padding-top: 30px;
+    li {
+        list-style-type: none;
+        display: inline;
+        padding: 0px 10px 0px 10px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+
+            &:hover {
+                background-color: $color-letra;
+                color: white !important;
+                border-radius: 8px;
+                transition: all 0.4s;
+            }
+        }
+    }
 }

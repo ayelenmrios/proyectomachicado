@@ -96,5 +96,21 @@ footer {
   color: rgb(122, 122, 122);
   padding-top: 30px;
 }
+footer li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+footer li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+footer li a:hover {
+  background-color: #f2b5d4;
+  color: white !important;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
 
 /*# sourceMappingURL=estilo.css.map */
