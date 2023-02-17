@@ -1,6 +1,10 @@
 body{
-    background-color: aquamarine;
-    font-family: sans-serif;
+    margin: 0;
+    background-color: #c4fff9;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-size: 16px;
 }
 /* Encabezado */
 header{
@@ -9,14 +13,16 @@ header{
 }
 /* Cuerpo */
 main{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
     background-color: white;
-    margin-bottom: 100px;
-    padding-top: 80px;
-    padding-bottom: 30px;
     border-radius: 4px;
 }
 h1, h2, h3{
-    color: #ff9fb2;
+    color: #f2b5d4;
     text-align: center;
     text-transform: uppercase;
 }
@@ -32,7 +38,7 @@ h2{
 /* Menu */
 nav{
     text-align: center;
-    background-color: aquamarine;
+    background-color: #c4fff9;
 }
 a{
     text-decoration: none;
@@ -40,7 +46,7 @@ a{
     font-weight: bold;
 }
 a:hover{
-    background-color: pink;
+    background-color: #f2b5d4;
     color: white !important;
     border-radius: 8px;
     transition: all 0.4s;
@@ -80,8 +86,7 @@ td{
 
 /* Pie de página */
 footer{
-    color: black;
-    text-align: right;
-    height: 100px;
+    color: rgb(122, 122, 122);
+    padding-top: 30px;
 }
 
