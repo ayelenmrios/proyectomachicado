@@ -34,8 +34,7 @@ main {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 40px;
-  background-color: white;
+  background-color: #eaf2d7;
   border-radius: 4px;
 }
 main h2 {
@@ -43,6 +42,7 @@ main h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 1rem;
 }
 main h3 {
   color: #e27396;
@@ -64,7 +64,7 @@ main section div p {
   text-align: center;
 }
 main table {
-  border: black solid 2px;
+  border: black solid 2px !important;
   text-align: center;
 }
 main table td {
@@ -89,7 +89,7 @@ main .pregunta p {
 }
 main .formulario {
   border: 2px solid black;
-  padding: 4rem;
+  padding: 3rem;
 }
 main .formulario div .form-control {
   background-color: rgba(255, 192, 203, 0.651);
@@ -119,23 +119,25 @@ header h1 {
 
 /*Pie de página*/
 footer {
-  color: rgb(122, 122, 122);
-  padding-top: 30px;
+  padding: 2rem;
+}
+footer p {
+  margin: 1rem 0rem 1rem 0rem;
 }
 footer li {
   list-style-type: none;
   display: inline;
-  padding: 0px 10px 0px 10px;
 }
 footer li a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  font-size: 20px;
+  padding: 0rem 1rem 0rem 1rem;
+  margin: 0rem 1rem 0rem 1rem;
 }
 footer li a:hover {
   background-color: #e27396;
   color: white !important;
-  border-radius: 8px;
   transition: all 0.4s;
 }
 

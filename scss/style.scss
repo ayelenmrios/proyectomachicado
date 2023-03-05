@@ -29,25 +29,32 @@ header {
 
 /*Pie de página*/
 footer {
-    color: rgb(122, 122, 122);
-    padding-top: 30px;
+    //color: rgb(122, 122, 122);
+    padding: 2rem;
+
+    p{
+        margin: 1rem 0rem 1rem 0rem;
+    }
 
     li {
         list-style-type: none;
         display: inline;
-        padding: 0px 10px 0px 10px;
-
+        
         a {
             text-decoration: none;
             color: black;
-            font-weight: bold;
+            font-size: 20px;
+            padding: 0rem 1rem 0rem 1rem;
+            margin: 0rem 1rem 0rem 1rem;
+
 
             &:hover {
                 background-color: $color-letra;
                 color: white !important;
-                border-radius: 8px;
+                //border-radius: 8px;
                 transition: all 0.4s;
             }
+
         }
     }
 }
