@@ -12,18 +12,18 @@ main {
         text-align: $texto-alineado;
         text-transform: $letra-mayus;
         font-weight: bold;
-        padding: 1rem;
+        padding: $espacio-int;
     }
 
     h3 {
         color: $color-letra;
         text-align: $texto-alineado;
         text-transform: $letra-mayus;
-        padding: 1rem;
+        padding: $espacio-int;
     }
 
     section {
-        padding: 1rem;
+        padding: $espacio-int;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -36,7 +36,7 @@ main {
 
         div {
             p {
-                text-align: center;
+                text-align: $texto-alineado;
             }
         }
     }
@@ -53,10 +53,9 @@ main {
             }
         }
     }
-
     div {
         p {
-            padding: 1rem;
+            padding: $espacio-int
         }
     }
 
@@ -70,7 +69,7 @@ main {
         p {
             font-weight: bold;
             margin: 0;
-            text-align: center;
+            text-align: $texto-alineado;
             font-size: 20px;
         }
     }
