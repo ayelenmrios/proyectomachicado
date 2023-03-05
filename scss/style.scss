@@ -22,7 +22,6 @@ header {
         text-align: $texto-alineado;
         text-transform: $letra-mayus;
         font-weight: bold;
-        //Letra responsive bs o cambiar tamaño de letra con keyframes. Se sale del encuadre cuando se achila la ventana 
     }
 }
 
@@ -49,7 +48,6 @@ footer {
             &:hover {
                 background-color: $color-letra;
                 color: white !important;
-                //border-radius: 4px;
                 transition: all 0.4s;
             }
 

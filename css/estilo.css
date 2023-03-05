@@ -61,7 +61,8 @@ main div table {
   text-align: center;
 }
 main div table tr td {
-  border: solid black 1px;
+  border: solid white 1px;
+  background-color: #efcfe3 !important;
 }
 main div p {
   padding: 1rem;
