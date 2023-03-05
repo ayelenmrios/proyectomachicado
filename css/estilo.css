@@ -28,7 +28,7 @@ main {
   margin-right: auto;
   margin-left: auto;
   background-color: #eaf2d7;
-  border-radius: 4px;
+  padding: 3rem 0rem 3rem 0rem;
 }
 main h2 {
   color: #e27396;
@@ -133,6 +133,18 @@ footer li a:hover {
   background-color: #e27396;
   color: white !important;
   transition: all 0.4s;
+}
+
+/*KeyFrames*/
+@media (max-width: 600px) {
+  header {
+    height: 100px;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  header {
+    height: 250px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
