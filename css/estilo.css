@@ -2,7 +2,7 @@
 /*Variables*/ /*Menú*/
 nav {
   text-align: center;
-  background-color: #c4fff9;
+  background-color: #a4ecdd;
 }
 nav li {
   list-style-type: none;
@@ -11,16 +11,24 @@ nav li {
 }
 nav li a {
   text-decoration: none;
-  color: black;
-  font-weight: bold;
+  color: #ea9ab2 !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  border-radius: 8px;
 }
 nav li a:hover {
-  background-color: #f2b5d4;
-  color: white !important;
-  border-radius: 8px;
+  background-color: #e27396;
+  color: #eaf2d7 !important;
   transition: all 0.4s;
 }
 
+/*
+#e27396
+#ea9ab2
+#efcfe3
+#eaf2d7
+#b3dee2
+*/
 /*Cuerpo*/
 main {
   width: 100%;
@@ -31,13 +39,13 @@ main {
   border-radius: 4px;
 }
 main h2 {
-  color: #f2b5d4;
+  color: #e27396;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
 }
 main h3 {
-  color: #f2b5d4;
+  color: #e27396;
   text-align: center;
   text-transform: uppercase;
 }
@@ -51,6 +59,9 @@ main section p {
   text-align: justify;
   margin: 0;
   padding: 1rem 0rem 1rem 0rem;
+}
+main section div p {
+  text-align: center;
 }
 main table {
   border: black solid 2px;
@@ -87,7 +98,7 @@ main .formulario div .form-control {
 /*General*/
 body {
   margin: 0;
-  background-color: #c4fff9;
+  background-color: #a4ecdd;
   font-family: "Raleway", sans-serif;
 }
 
@@ -100,7 +111,7 @@ header {
   padding: 1rem;
 }
 header h1 {
-  color: #f2b5d4;
+  color: #e27396;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -122,7 +133,7 @@ footer li a {
   font-weight: bold;
 }
 footer li a:hover {
-  background-color: #f2b5d4;
+  background-color: #e27396;
   color: white !important;
   border-radius: 8px;
   transition: all 0.4s;

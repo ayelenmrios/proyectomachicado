@@ -3,6 +3,7 @@ nav {
     text-align: $texto-alineado;
     background-color: $color-fondo;
 
+
     li {
         list-style-type: none;
         display: inline;
@@ -10,15 +11,24 @@ nav {
 
         a {
             text-decoration: none;
-            color: black;
-            font-weight: bold;
+            color: #ea9ab2 !important;
+            font-weight: bold !important;
+            text-transform: $letra-mayus;
+            border-radius: 8px;
 
             &:hover {
                 background-color: $color-letra;
-                color: white !important;
-                border-radius: 8px;
+                color: #eaf2d7 !important;
                 transition: all 0.4s;
             }
         }
     }
 }
+
+/*
+#e27396
+#ea9ab2
+#efcfe3
+#eaf2d7
+#b3dee2
+*/
