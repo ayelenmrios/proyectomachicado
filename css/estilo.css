@@ -22,13 +22,6 @@ nav li a:hover {
   transition: all 0.4s;
 }
 
-/*
-#e27396
-#ea9ab2
-#efcfe3
-#eaf2d7
-#b3dee2
-*/
 /*Cuerpo*/
 main {
   width: 100%;
@@ -48,6 +41,7 @@ main h3 {
   color: #e27396;
   text-align: center;
   text-transform: uppercase;
+  padding: 1rem;
 }
 main section {
   padding: 1rem;
@@ -63,11 +57,10 @@ main section p {
 main section div p {
   text-align: center;
 }
-main table {
-  border: black solid 2px !important;
+main div table {
   text-align: center;
 }
-main table td {
+main div table tr td {
   border: solid black 1px;
 }
 main div p {
@@ -79,7 +72,6 @@ main .pregunta {
   align-items: center;
   justify-content: center;
   padding: 4rem;
-  border: 2px solid black;
 }
 main .pregunta p {
   font-weight: bold;
@@ -88,11 +80,13 @@ main .pregunta p {
   font-size: 20px;
 }
 main .formulario {
-  border: 2px solid black;
-  padding: 3rem;
+  padding: 2rem;
 }
 main .formulario div .form-control {
   background-color: rgba(255, 192, 203, 0.651);
+}
+main .formulario div label {
+  color: black;
 }
 
 /*General*/
@@ -139,19 +133,6 @@ footer li a:hover {
   background-color: #e27396;
   color: white !important;
   transition: all 0.4s;
-}
-
-/*Vista celular*/
-@media (max-width: 600px) {
-  header {
-    height: 100px;
-  }
-}
-/*Vista tablet*/
-@media (min-width: 601px) and (max-width: 900px) {
-  header {
-    height: 250px;
-  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

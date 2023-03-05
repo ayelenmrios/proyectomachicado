@@ -3,7 +3,6 @@ main {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    //padding-bottom: 40px;
     background-color: #eaf2d7;
     border-radius: 4px;
 
@@ -19,10 +18,10 @@ main {
         color: $color-letra;
         text-align: $texto-alineado;
         text-transform: $letra-mayus;
+        padding: 1rem;
     }
 
     section {
-        //margin-bottom: 70px;
         padding: 1rem;
         display: grid;
         align-items: center;
@@ -33,20 +32,23 @@ main {
             margin: 0;
             padding: 1rem 0rem 1rem 0rem;
         }
-        
-        div{
-            p{
+
+        div {
+            p {
                 text-align: center;
             }
         }
     }
 
-    table {
-        border: black solid 2px !important;
-        text-align: $texto-alineado;
+    div {
+        table {
+            text-align: $texto-alineado;
 
-        td {
-            border: solid black 1px;
+            tr {
+                td {
+                    border: solid black 1px;
+                }
+            }
         }
     }
 
@@ -63,8 +65,6 @@ main {
         justify-content: center;
         padding: 4rem;
 
-        border: 2px solid black;
-
         p {
             font-weight: bold;
             margin: 0;
@@ -73,14 +73,18 @@ main {
         }
     }
 
+    //Formulario
     .formulario {
-        border: 2px solid black;
-        padding: 3rem;
+        padding: 2rem;
+
         div {
             .form-control {
                 background-color: rgba(255, 192, 203, 0.651);
             }
+
+            label {
+                color: black;
+            }
         }
     }
-
 }

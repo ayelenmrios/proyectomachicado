@@ -23,13 +23,11 @@ header {
         text-transform: $letra-mayus;
         font-weight: bold;
         //Letra responsive bs o cambiar tamaño de letra con keyframes. Se sale del encuadre cuando se achila la ventana 
-        //font-size: 30px;
     }
 }
 
 /*Pie de página*/
 footer {
-    //color: rgb(122, 122, 122);
     padding: 2rem;
 
     p{
@@ -51,24 +49,10 @@ footer {
             &:hover {
                 background-color: $color-letra;
                 color: white !important;
-                //border-radius: 8px;
+                //border-radius: 4px;
                 transition: all 0.4s;
             }
 
         }
-    }
-}
-
-/*Vista celular*/
-@media (max-width: 600px) {
-    header {
-        height: 100px;
-    }
-}
-
-/*Vista tablet*/
-@media (min-width:601px) and (max-width:900px) {
-    header {
-        height: 250px;
     }
 }
